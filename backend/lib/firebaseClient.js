@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA_GdLy-dKQe_THGhXooxcZPWDsht0LM7U",
+  authDomain: "capstone-otp-76768.firebaseapp.com",
+  projectId: "capstone-otp-76768",
+  storageBucket: "capstone-otp-76768.firebasestorage.app",
+  messagingSenderId: "888924365449",
+  appId: "1:888924365449:web:4970b6a69dcf8588b81c58",
+  measurementId: "G-92QGF8X3EP"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

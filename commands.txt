@@ -1,0 +1,14 @@
+🔹 TERMINAL 1 - BLOCKCHAIN NODE
+
+npm run node
+Use: Starts local Hardhat blockchain on port 8545. Keep this running.
+
+🔹 TERMINAL 2 - CONTRACT DEPLOYMENT
+
+npm run deploy
+Use: Deploys smart contract to blockchain. Run this AFTER starting Hardhat node.
+
+🔹 TERMINAL 3 - BACKEND SERVER
+
+npm start  
+Use: Starts Express.js backend server on port 5000. Keep this running.
