@@ -25,8 +25,8 @@ cd .. && npm install
 
 
 
-### 2. Run
-```bash
+# Run
+
 cd backend
 node server.js
 
