@@ -21,4 +21,14 @@ cd SecureVault
 cd backend && npm install
 
 # Install Frontend
-cd ../frontend && npm install
+cd .. && npm install
+
+
+
+### 2. Run
+```bash
+cd backend
+node server.js
+
+cd ../src
+npm run dev
